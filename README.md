@@ -49,8 +49,12 @@ Display Bill: Print the calculated bill to the console.
 
 ```
 # OUTPUT:9(a):
+<<<<<<< HEAD
 
 
+=======
+![a](https://github.com/KeerthanaaSaravanan/EX-09-JAVA/assets/145742596/dd2041fe-3401-4d7b-b037-d51874ef6600)
+>>>>>>> b0a5624983533e2fca4b1c80e820f0d2af9e5fc1
 
 # Ex-09(b)
 # AIM
