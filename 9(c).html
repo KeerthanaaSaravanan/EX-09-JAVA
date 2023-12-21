@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Generate N Prime Numbers</h2>
+
+<p>Enter a number:</p>
+<input id="num" type="number">
+<button onclick="generatePrimes()">Generate</button>
+
+<p id="primes"></p>
+
+<script>
+function generatePrimes() {
+    var n = document.getElementById("num").value;
+    var primes = [];
+    for(var i = 2; primes.length < n; i++) {
+        if(isPrime(i)) {
+            primes.push(i);
+        }
+    }
+    document.getElementById("primes").innerHTML = primes.join(", ");
+}
+
+function isPrime(num) {
+    for(var i = 2, sqrt = Math.sqrt(num); i <= sqrt; i++)
+        if(num % i === 0) return false; 
+    return num > 1;
+}
+</script>
+
+</body>
+</html>

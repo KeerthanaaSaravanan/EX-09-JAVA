@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Simple Text Editor</h2>
+
+<textarea id="text" rows="4" cols="50"></textarea><br>
+<button onclick="capitalize()">Capitalize</button>
+<button onclick="lowercase()">Lowercase</button>
+<button onclick="reverse()">Reverse</button>
+
+<p id="result"></p>
+
+<script>
+function capitalize() {
+    var text = document.getElementById("text").value;
+    document.getElementById("result").innerHTML = text.toUpperCase();
+}
+
+function lowercase() {
+    var text = document.getElementById("text").value;
+    document.getElementById("result").innerHTML = text.toLowerCase();
+}
+
+function reverse() {
+    var text = document.getElementById("text").value;
+    document.getElementById("result").innerHTML = text.split("").reverse().join("");
+}
+</script>
+
+</body>
+</html>

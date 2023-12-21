@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Form Validation</h2>
+
+<form id="myForm">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name"><br>
+  <span id="nameError" style="color:red"></span><br>
+  <label for="email">Email:</label><br>
+  <input type="text" id="email" name="email"><br>
+  <span id="emailError" style="color:red"></span><br>
+  <input type="button" value="Submit" onclick="validateForm()">
+</form>
+
+<script>
+function validateForm() {
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var nameError = "";
+    var emailError = "";
+
+    if (name == "") {
+        nameError = "Name must be filled out";
+    }
+
+    if (email == "") {
+        emailError = "Email must be filled out";
+    } else if (!email.includes("@")) {
+        emailError = "Email must be a valid email address";
+    }
+
+    document.getElementById("nameError").innerHTML = nameError;
+    document.getElementById("emailError").innerHTML = emailError;
+}
+</script>
+
+</body>
+</html>
