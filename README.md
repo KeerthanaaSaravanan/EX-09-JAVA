@@ -22,9 +22,7 @@ Create a form with java script code to calculate electricity bill.
 
 ```
 # OUTPUT:9(a):
-
-
-
+![a](https://github.com/KeerthanaaSaravanan/EX-09-JAVA/assets/145742596/dd2041fe-3401-4d7b-b037-d51874ef6600)
 
 # Ex-09(b)
 # AIM
