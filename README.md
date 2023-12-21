@@ -102,8 +102,7 @@ After the loop ends, `result` will hold the factorial of `n`. Return `result`.
 ```
 # OUTPUT:9(b):
 
-
-
+![b](https://github.com/KeerthanaaSaravanan/EX-09-JAVA/assets/145742596/601528a3-1559-4864-9682-fcd786b97fbd)
 
 # Ex-09(c)
 # AIM
@@ -161,8 +160,7 @@ function isPrime(num) {
 ```
 # OUTPUT:9(c):
 
-
-
+![c](https://github.com/KeerthanaaSaravanan/EX-09-JAVA/assets/145742596/4aec6836-2783-4280-9bab-9a374fae4833)
 
 # Ex-09(d)
 # AIM
@@ -234,6 +232,10 @@ function divide() {
 ```
 # OUTPUT:9(d):
 
+![d1](https://github.com/KeerthanaaSaravanan/EX-09-JAVA/assets/145742596/3a0d73a4-f292-4b46-8e62-094f0d7be256)
+![d2](https://github.com/KeerthanaaSaravanan/EX-09-JAVA/assets/145742596/02d30b77-752e-47cd-87da-2bb9ac8249f9)
+![d3](https://github.com/KeerthanaaSaravanan/EX-09-JAVA/assets/145742596/5a75c252-686f-448b-966f-813a0c2a85ab)
+![d4](https://github.com/KeerthanaaSaravanan/EX-09-JAVA/assets/145742596/75d619b8-0de1-438b-831a-5bc02097454b)
 
 
 # Ex-09(e)
@@ -289,9 +291,12 @@ function reverse() {
 </html>
 
 ```
+
 # OUTPUT:9(e):
 
-
+![e1](https://github.com/KeerthanaaSaravanan/EX-09-JAVA/assets/145742596/ee7b4450-a8c6-4cf4-900f-e2d66af0666e)
+![e2](https://github.com/KeerthanaaSaravanan/EX-09-JAVA/assets/145742596/63943d42-539d-4353-815a-408795c61b5f)
+![e3](https://github.com/KeerthanaaSaravanan/EX-09-JAVA/assets/145742596/7bfba5ce-00e5-4a85-bedb-5ce951d4a8f4)
 
 # Ex-09(f)
 # AIM
@@ -357,6 +362,7 @@ function validateForm() {
 ```
 # OUTPUT:9(f):
 
+![f](https://github.com/KeerthanaaSaravanan/EX-09-JAVA/assets/145742596/91dfe87b-c9aa-4b39-a36d-b57ed0e7bee7)
 
 # RESULT:
 
